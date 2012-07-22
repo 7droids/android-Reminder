@@ -12,7 +12,8 @@ import android.widget.TextView;
 /**
  * Text view that auto adjusts text size to fit within the view. If the text
  * size equals the minimum text size and still does not fit, append with an
- * ellipsis.
+ * ellipsis. From http ://stackoverflow.com/questions/5033012/auto
+ * -scale-textview-text-to-fit-within-bounds
  * 
  * @author Chase Colburn
  * @since Apr 4, 2011
