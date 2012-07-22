@@ -12,7 +12,7 @@ import android.widget.ArrayAdapter;
  * @author 7droids.de (FA)
  * 
  */
-public class ReminderListActivity extends ListActivity {
+public class ReminderList extends ListActivity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {

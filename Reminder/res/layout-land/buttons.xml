@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal">
+	
+	<TableRow>
+        <Button android:id="@+id/dashboard_nextItem"
+           	style="@style/DashboardButton"            	
+           	android:onClick="onNextItemClick"
+			android:text="@string/nextItem"
+			android:drawableTop="@drawable/dashboard_next_item" />
+        <Button android:id="@+id/dashboard_allItems"
+           	style="@style/DashboardButton"            	
+           	android:onClick="onAllItemsClick"
+			android:text="@string/allItems"
+			android:drawableTop="@drawable/dashboard_all_items" />
+	</TableRow>
+</TableLayout>
