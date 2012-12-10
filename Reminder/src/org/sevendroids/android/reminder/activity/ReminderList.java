@@ -13,12 +13,12 @@ import android.widget.ArrayAdapter;
  * 
  */
 public class ReminderList extends ListActivity {
-    /** Called when the activity is first created. */
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-	super.onCreate(savedInstanceState);
+	/** Called when the activity is first created. */
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
 
-	setListAdapter(new ArrayAdapter<String>(this, R.layout.itemlist,
-		getResources().getStringArray(R.array.reminder_items)));
-    }
+		setListAdapter(new ArrayAdapter<String>(this, R.layout.itemlist,
+				getResources().getStringArray(R.array.reminder_items)));
+	}
 }

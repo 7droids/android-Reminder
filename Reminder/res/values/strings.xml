@@ -3,8 +3,8 @@
 
     <string name="allItems">All items</string>
     <string name="app_name">Reminder</string>
-    <string name="nextItem">Next item</string>
-    <string-array name="reminder_items">
+    <string name="ignoreItem">Ignore this item</string><string name="nextItem">Next item</string>
+    <string name="nextRandomItem">Show next random item</string><string-array name="reminder_items">
         <item >Item 1</item>
         <item >Item 2</item>
         <item >Item 3</item>
@@ -26,5 +26,7 @@
         <item >Item 19</item>
         <item >Item 20</item>
     </string-array>
+    
+    
 
 </resources>
